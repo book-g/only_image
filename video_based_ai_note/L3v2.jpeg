@@ -1,0 +1,62 @@
+  Here are the key concepts from the transcript in **binary relation** format (concept : explanation):
+
+---
+
+### **1. Displacement (Δr) : Change in position vector**  
+   - **Definition**: Δr = r(t + Δt) − r(t)  
+   - **Direction**: Tangent to the trajectory as Δt → 0.  
+
+### **2. Velocity (v) : Instantaneous rate of position change**  
+   - **Definition**:  
+    
+     $$
+     \mathbf{v} = \lim_{\Delta t \to 0} \frac{\Delta \mathbf{r}}{\Delta t} = \frac{d\mathbf{r}}{dt}
+     $$  
+   
+   - **Components**:  
+     - *vₓ* = dx/dt (x-component)  
+     - *vᵧ* = dy/dt (y-component)  
+   - **Vector form**:  
+   
+     $$
+     \mathbf{v} = vₓ \mathbf{\hat{i}} + vᵧ \mathbf{\hat{j}}
+     $$  
+
+### **3. Speed : Magnitude of velocity**  
+   
+  - **Formula**:  
+  
+     $$
+     \text{Speed} = |\mathbf{v}| = \sqrt{vₓ^2 + vᵧ^2}
+     $$  
+   - **Property**: Always non-negative.  
+
+### **4. Direction of velocity : Angle θ with x-axis**  
+   - **Tangent relation**:  
+     
+     $$
+     \tan \theta = \frac{vᵧ}{vₓ}
+     $$  
+   
+   - **Angle formula**:  
+    
+     $$
+     \theta = \tan^{-1}\left(\frac{vᵧ}{vₓ}\right)
+     $$  
+
+### **5. Instantaneous velocity : Complete description**  
+   - **Includes**:  
+     1. **Components** (vₓ, vᵧ).  
+     2. **Magnitude** (speed).  
+     3. **Direction** (angle θ).  
+
+### **6. Graphical interpretation**  
+   - **Δr → 0**: Becomes tangent to the path.  
+   - **Decomposition**: Δr = Δx **î** + Δy **ĵ**.  
+
+### **Key binary relations**:  
+- **Displacement : Tangent limit** → Δr aligns with trajectory tangent as Δt → 0.  
+- **Velocity : Derivative** → dr/dt = vₓî + vᵧĵ.  
+- **Speed : Pythagorean** → √(vₓ² + vᵧ²).  
+- **Direction : Trigonometry** → θ = arctan(vᵧ/vₓ).  
+
